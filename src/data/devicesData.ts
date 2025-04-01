@@ -46,7 +46,7 @@ export const devicesData: Device[] = [
     frequency: "2.4 GHz",
     manufacturer: "SkyTech",
     status: "פעיל",
-    image: "https://dummyimage.com/150x150/000/fff&text=SkyDrone+500",
+    image: "https://d2d22nphq0yz8t.cloudfront.net/6cbcadef-96e0-49e9-b3bd-9921afe362db/eilat.payngo.co.il/media/catalog/product/1/-/1-03_1_.png/w_700,h_700,r_contain",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ export const devicesData: Device[] = [
     frequency: "5.8 GHz",
     manufacturer: "Falcon Corp",
     status: "לא בשימוש",
-    image: "https://dummyimage.com/150x150/000/fff&text=FalconEye",
+    image: "https://d2d22nphq0yz8t.cloudfront.net/6cbcadef-96e0-49e9-b3bd-9921afe362db/eilat.payngo.co.il/media/catalog/product/s/c/screenshot_2025-03-11_111301_1_1_.png/w_240,h_300,r_contain",
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ export const devicesData: Device[] = [
     frequency: "5.2 GHz",
     manufacturer: "ReconSys",
     status: "ממתין לבדיקה",
-    image: "https://dummyimage.com/150x150/000/fff&text=Recon+Mini",
+    image: "https://d2d22nphq0yz8t.cloudfront.net/6cbcadef-96e0-49e9-b3bd-9921afe362db/eilat.payngo.co.il/media/catalog/product/1/-/1-04_1_.png/w_240,h_300,r_contain",
   },
 
   // מכשירי קשר
