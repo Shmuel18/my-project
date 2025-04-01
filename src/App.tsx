@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Categories from "./components/Categories";
-import WaveDivider from "./components/WaveDivider";
+// import WaveDivider from "./components/WaveDivider";
 import CategoryPage from "./components/CategoryPage";
 import DevicePage from "./components/DevicePage";
 
@@ -16,7 +16,7 @@ function App() {
           element={
             <>
               <Hero />
-              <WaveDivider />
+              {/* <WaveDivider /> */}
               <Categories />
             </>
           }
