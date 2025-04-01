@@ -1,9 +1,9 @@
 import { JSX, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { devicesData } from "../data/devicesData";
-import { FaSatellite, } from "react-icons/fa";
+import { FaSatellite } from "react-icons/fa";
 import { GiDeliveryDrone } from "react-icons/gi";
-import { FaWalkieTalkie ,FaRadio} from "react-icons/fa6";
+import { FaWalkieTalkie ,FaRadio } from "react-icons/fa6";
 
 const categoryIcons: Record<string, JSX.Element> = {
   לווינים: <FaSatellite />, 
@@ -48,7 +48,7 @@ export default function CategoryPage() {
             placeholder="🔍 חפש מכשיר לפי שם או תדר"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full max-w-sm bg-white/90 dark:bg-[#1a1f2e] backdrop-blur-md px-4 py-2 rounded-xl border border-blue-600 placeholder-gray-500 dark:placeholder-gray-400 text-black dark:text-white font-semibold"
+            className="w-full max-w-sm bg-white/70 dark:bg-[#1a1f2e] backdrop-blur-md px-4 py-2 rounded-xl border border-blue-600 placeholder-gray-700 dark:placeholder-gray-400 text-black dark:text-white font-semibold"
           />
         </header>
 
@@ -61,7 +61,7 @@ export default function CategoryPage() {
               <img
                 src={device.image}
                 alt={device.name}
-                className="w-32 h-32 mb-4 rounded-lg object-contain"
+                className="w-full h-40 sm:h-48 md:h-56 mb-4 rounded-lg object-cover border border-blue-500 shadow-md"
               />
               <h2 className="text-xl font-semibold mb-1 text-black dark:text-white">
                 {device.name}
