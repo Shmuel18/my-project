@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class', // ✅ מאפשר מצב לילה לפי class="dark"
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",

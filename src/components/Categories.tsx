@@ -10,7 +10,7 @@ const categories = [
 
 const Categories = () => {
   return (
-    <section className="py-10 px-4 text-center bg-[#0b0f1a]" dir="rtl">
+    <section className="py-10 px-4 text-center" dir="rtl">
       <h2 className="text-4xl font-bold text-white mb-12">קטגוריות</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
         {categories.map((cat, idx) => (

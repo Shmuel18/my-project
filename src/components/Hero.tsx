@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-gray-900 to-[#0b0f1a] text-white text-center py-16 px-6 w-full" dir="rtl">
+    <section
+      className="relative text-white text-center py-16 px-6 w-full"
+      dir="rtl"
+    >
       <motion.div
         className="relative z-10 max-w-4xl mx-auto"
         initial={{ opacity: 0, y: 30 }}
@@ -34,14 +37,14 @@ const Hero = () => {
         </div>
       </motion.div>
 
-      {/* גל SVG המקורי מתוך frequency-wave.svg */}
+      {/* גל SVG המקורי מתוך frequency-wave.svg
       <div className="mt-8 w-full mb-6">
         <img
           src="/src/assets/frequency-wave.svg"
           alt="Wave Divider"
           className="w-full h-28 object-cover opacity-80"
         />
-      </div>
+      </div> */}
     </section>
   );
 };
