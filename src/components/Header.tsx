@@ -1,4 +1,4 @@
-import { FaPlus, FaSun, FaMoon } from "react-icons/fa";
+import {  FaSun, FaMoon } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useDarkMode } from "../hooks/useDarkMode";
 
@@ -15,12 +15,12 @@ const Header = () => {
           <img src="/logo.svg" alt="תדר לוגו" className="h-12 w-auto" />
         </Link>
 
-        <button
+        {/* <button
           className="text-xl p-2 rounded-full bg-blue-600 hover:bg-blue-500 transition-colors duration-300"
           title="הוסף פריט חדש"
         >
           <FaPlus />
-        </button>
+        </button> */}
 
         <button
           onClick={() => setDarkMode(!darkMode)}

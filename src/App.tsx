@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage";
 import CategoryPage from "./components/CategoryPage";
 import DevicePage from "./components/DevicePage";
 import About from "./components/About";
+import NotFoundPage from "./components/NotFoundPage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/category/:name" element={<CategoryPage />} />
         <Route path="/device/:id" element={<DevicePage />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
   );

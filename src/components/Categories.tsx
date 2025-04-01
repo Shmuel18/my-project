@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
-import { FaSatellite, FaRobot, FaBroadcastTower, FaTabletAlt } from "react-icons/fa";
+import { FaSatellite, } from "react-icons/fa";
+import { GiDeliveryDrone } from "react-icons/gi";
+import { FaWalkieTalkie ,FaRadio} from "react-icons/fa6";
 
 const categories = [
   { label: "לווינים", icon: <FaSatellite /> },
-  { label: "רחפנים", icon: <FaRobot /> },
-  { label: "מכשירי קשר", icon: <FaBroadcastTower /> },
-  { label: "מערכות הפעלה", icon: <FaTabletAlt /> },
+  { label: "רחפנים", icon: <GiDeliveryDrone /> },
+  { label: "מכשירי קשר", icon: <FaWalkieTalkie /> },
+  { label: "מערכות הפעלה", icon: <FaRadio /> },
 ];
 
 const Categories = () => {

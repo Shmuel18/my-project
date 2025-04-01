@@ -1,13 +1,15 @@
 import { JSX, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { devicesData } from "../data/devicesData";
-import { FaSatellite, FaRobot, FaBroadcastTower, FaTabletAlt } from "react-icons/fa";
+import { FaSatellite, } from "react-icons/fa";
+import { GiDeliveryDrone } from "react-icons/gi";
+import { FaWalkieTalkie ,FaRadio} from "react-icons/fa6";
 
 const categoryIcons: Record<string, JSX.Element> = {
   לווינים: <FaSatellite />, 
-  רחפנים: <FaRobot />, 
-  "מכשירי קשר": <FaBroadcastTower />, 
-  "מערכות הפעלה": <FaTabletAlt />,
+  רחפנים: <GiDeliveryDrone />, 
+  "מכשירי קשר": <FaWalkieTalkie />, 
+  "מערכות הפעלה": <FaRadio />,
 };
 
 export default function CategoryPage() {

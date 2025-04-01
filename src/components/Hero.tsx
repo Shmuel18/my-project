@@ -20,7 +20,7 @@ const Hero = () => {
           כל התדרים. כל הנתונים. במקום אחד.
         </p>
 
-        <div className="flex flex-wrap justify-center gap-4">
+        {/* <div className="flex flex-wrap justify-center gap-4">
           <motion.button
             whileHover={{ scale: 1.05 }}
             className="bg-blue-700 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-semibold transition"
@@ -34,7 +34,7 @@ const Hero = () => {
           >
             📅 גישה לדו"חות
           </motion.button>
-        </div>
+        </div> */}
       </motion.div>
 
       {/* גל SVG המקורי מתוך frequency-wave.svg
